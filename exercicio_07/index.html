@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <h1>Formularios simples</h1>
+  <form action="formulario"><!--ver numa forma de formulario-->
+    <p><label for="inome">Nome:</label><!-- um tipo de marcar o botão-->
+      <input type="inome" name="" id="inome">
+    </p>
+    <p><label for="iemail">Email:</label>
+      <input type="iemail" name="" id="iemail"><!-- mostrar como vai aparecer -->
+    </p>
+    <p><label for="isenha">senha:</label>
+      <input type="password" name="" id="isenha">
+    </p>
+    <input type="submit" value="cadastro">
+  </form>
+  <h1>Formulario de cadastro</h1>
+  <form action="formulario">
+    <p><label for="inomecomplete">Nome Completo:</label>
+      <input type="inomecomplete" name="" id="inomecomplete">
+    </p>
+    <p><label for="inome de Usuário">Nome de Usuário:</label>
+      <input tyoe="inome de Usuário" name="" id="inome de Usuário">
+    </p>
+    <p><label for="iemail.">Email:</label>
+      <input type="iemail." name="" id="iemail.">
+    </p>
+    <p><label for="isenha.">senha:</label>
+      <input type="password" name="" id="isenha.">
+    </p>
+    <input type="submit" value="cadastro">
+    <p>Time:</p>
+    <input type="radio" name="Corinthians" id="iCorinthians">
+    <label for="icorinthians">Corinthians</label>
+    <input type="radio" name="são paulo" id="isãopaulo">
+    <label for="isãopaulo">São Paulo</label>
+    <input type="radio" name="Vasco" id="ivasco">
+    <label for="ivasco">Vasco</label>
+    <input type="radio" name="flamengo" id="iflamengo">
+    <label for="iflamengo">Flamengo</label>
+
+    <p>Interesses:<input type="checkbox">Tecnologia<input type="checkbox">Esporte<input type="checkbox">Música</p>
+    
+    <p>Cidade:
+      <select name="cidade" id="icidade">
+        <option name="sãopaulo" id="isãopaulo">São Paulo</option><!--ver como vai aparecer -->
+        <option name="riodejaneiro" id="iriodejaneiro">Rio de Janeiro</option>
+        <option name="balohorizonte" id="belohorizonte">Belo Horizonte</option>
+      </select>
+    </p>
+    <p>mensagem <br><textarea name="mensagem" id="imensagem"></textarea>
+    </p>
+
+ 
+  <input type="submit" value="enviar">
+  <input type="reset" value="redefinir">
+</form>
+</body>
+</html>
